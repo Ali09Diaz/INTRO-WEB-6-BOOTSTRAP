@@ -4,5 +4,29 @@ body{
 }
 div{
     border: 1px solid black;
-    
+}
+
+/*Media query
+
+Responsive> Responde a un determinado factor o situacion. Es la capacidad que tienen los elementos para ajustar a las ventanas (tanto en tamanio como disocision).
+
+CSS Puro (Media Querys)
+
+    Una regla especial que se ejecuta solo cuando se cumplen ciertas condiciones. Estas concideraciones estan relacionadas con las caracteristicas de nuestro dispositivo, como el ancho de la pantalla, la orientacion y la resolucion. 
+
+La sitaxis de una Media Query es:
+
+@media (parametros o condiciones a cumplir){
+    estilos que se aplican cuando se cumple la condicion}
+
+*/
+@media(min-width:500px) and (max-width:1024px){
+    body{
+        background-color: cornsilk;
+
+    }
+    .container{
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
 }
